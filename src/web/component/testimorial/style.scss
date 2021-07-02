@@ -1,0 +1,109 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+/* purgecss start ignore */
+
+.slick-list {
+  margin-right: -120px;
+}
+
+.slick-arrow {
+  top: 95%;
+}
+
+.slick-arrow::before {
+  display: none;
+}
+
+.slick-arrow.slick-prev {
+  left: -120px;
+}
+
+.slick-arrow.slick-next {
+  left: -80px;
+  top: 90%;
+}
+
+.view-all-reviews-button {
+  background-color: #3775df !important;
+  padding: 10px 20px;
+}
+
+.custom-display {
+  display: flex;
+}
+
+.custom-margin-right {
+  margin-right: 30px;
+}
+.custom-width-card {
+  width: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+  .custom-display {
+    display: block;
+  }
+  .custom1-max-width {
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+  }
+  .custom-margin-right {
+    margin-right: 0px;
+  }
+  .slick-arrow.slick-prev {
+    left: 45%;
+    bottom: -120px;
+    z-index: 100;
+    margin-top: 80px;
+  }
+
+  .slick-arrow.slick-next {
+    left: 55%;
+    bottom: -120px;
+    z-index: 100;
+    margin-top: 82px;
+    margin-bottom: 20px;
+  }
+  .custom-height {
+    min-height: 960px;
+  }
+  .custom-width-card {
+    width: 300px;
+    margin-left: -2.5rem;
+    margin: auto;
+    height: 700px;
+  }
+  .slick-list {
+    margin-right: -5%;
+  }
+  .h-customer-card {
+    height: 535px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .custom-width-card {
+    width: 250px;
+    margin-left: -2.5rem;
+    margin: auto;
+    height: 400px !important;
+  }
+  .h-customer-card {
+    height: 700px !important;
+  }
+  .slick-arrow.slick-next {
+    margin-top: 92px !important;
+  }
+  .custom-font-size {
+    font-size: 1.8em !important;
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 400px) {
+  .custom-height {
+    height: 1000px;
+  }
+}
+/* purgecss end ignore */

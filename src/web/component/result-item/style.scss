@@ -1,0 +1,22 @@
+.custom-height-card {
+  height: 300px !important;
+}
+.custom-margin-top {
+  margin-top: 0px;
+}
+@media only screen and (max-width: 640px) {
+  .custom-padding {
+    padding: 10px 20px !important;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .custom-height-card {
+    height: 365px !important;
+  }
+  .custom-margin-top-first {
+    margin-top: 85px !important;
+  }
+  .custom-margin-top {
+    margin-top: 60px !important;
+  }
+}

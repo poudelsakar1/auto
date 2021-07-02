@@ -1,0 +1,16 @@
+.custom-max-width-mobile {
+  max-width: 648px !important;
+  text-align: justify center;
+}
+.custom-layout {
+  display: flex;
+}
+@media only screen and (max-width: 800px) {
+  .custom-max-width-mobile {
+    max-width: 360px !important;
+    text-align: justify center;
+  }
+  .custom-layout {
+    display: block;
+  }
+}

@@ -1,0 +1,37 @@
+.custom-ninja-icon {
+  width: 66.66666%;
+}
+.autoleas-info {
+  width: 33.33333%;
+}
+
+.custom-display {
+  display: flex;
+}
+.custom-width-half {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .custom-ninja-icon {
+    width: 100%;
+  }
+  .autoleas-info {
+    width: 100%;
+  }
+  .custom-display {
+    display: block;
+  }
+  .custom-width-half {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 600px) {
+  .custom-ninja-icon {
+    width: 40%;
+  }
+  .autoleas-info {
+    width: 60%;
+  }
+}

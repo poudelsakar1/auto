@@ -1,0 +1,9 @@
+.background-height {
+  height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .background-height {
+    height: 500px;
+  }
+}

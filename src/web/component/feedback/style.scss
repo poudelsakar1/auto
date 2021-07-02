@@ -1,0 +1,9 @@
+.custom-feedback-width {
+  width: 394px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .custom-feedback-width {
+    width: 100%;
+  }
+}

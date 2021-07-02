@@ -1,0 +1,8 @@
+.custom-width-inquire {
+  width: auto;
+}
+@media screen and (max-width: 756px) {
+  .custom-width-inquire {
+    width: 100%;
+  }
+}

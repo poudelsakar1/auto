@@ -1,0 +1,25 @@
+.small-loading-animate {
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.small-loading-animate:after {
+  content: ' ';
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 2px solid #3775df;
+  border-color: #3775df transparent #3775df transparent;
+  animation: smallLoadingAnimation 1.2s linear infinite;
+}
+
+@keyframes smallLoadingAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

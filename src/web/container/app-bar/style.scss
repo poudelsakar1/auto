@@ -1,0 +1,60 @@
+.mobile-header-container {
+  padding: 20px 20px;
+}
+
+.menu-items {
+  display: block;
+}
+
+.left-9 {
+  margin-left: 40px;
+}
+
+.image-style {
+  height: 50px;
+}
+
+.title-font {
+  font-size: 40px;
+}
+
+.second-section {
+  display: flex;
+  height: 235px;
+}
+
+.grey-font {
+  font-size: 30px;
+}
+.menu-item {
+  padding: 10px 10px;
+}
+.active-menu {
+  height: 0;
+  overflow: hidden;
+}
+
+.left-9 {
+  margin-left: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  .second-section {
+    display: block;
+    height: 340px;
+  }
+  .title-font {
+    font-size: 35px;
+  }
+  .grey-font {
+    font-size: 25px;
+  }
+  .second-container {
+    padding: 0px 20px;
+  }
+  .callout.top-left::before {
+    bottom: -40px;
+    height: 42px;
+    left: 10px;
+  }
+}

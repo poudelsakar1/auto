@@ -1,0 +1,19 @@
+.search-form {
+  display: flex;
+}
+
+.custom-error {
+  top: 28%;
+  right: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .search-form {
+    display: block;
+  }
+  .search-form-item {
+    width: 100% !important;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+  }
+}

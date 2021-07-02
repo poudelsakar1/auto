@@ -1,0 +1,47 @@
+.modal {
+  transition: opacity 0.25s ease;
+}
+
+.close-icon {
+  right: 10px;
+  top: 10px;
+  background: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.custom-modal-icon-position {
+  position: absolute;
+}
+
+.custom-modal-height {
+  max-height: 90%;
+}
+.custom-modal-height1 {
+  max-height: 90%;
+}
+
+@media only screen and (max-width: 765px) {
+  .custom-modal-height {
+    height: 90%;
+  }
+  .custom-modal-height1 {
+    height: 90%;
+  }
+  .custom-modal-icon-position {
+    position: fixed;
+  }
+  .close-icon {
+    position: fixed !important;
+    right: 44%;
+    top: 2.5%;
+    background: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .custom-orgin-icon {
+    display: none !important;
+  }
+}

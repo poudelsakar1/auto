@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .a {
+        fill: #3775df;
+      }
+      .b {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-1148 -147)">
+    <rect class="a" width="50" height="50" rx="5" transform="translate(1148 147)" />
+    <g transform="translate(1162 161)">
+      <path class="b" d="M23.261,13.88A9.38,9.38,0,1,1,13.88,4.5a9.38,9.38,0,0,1,9.38,9.38Z"
+        transform="translate(-4.5 -4.5)" />
+      <path class="b" d="M30.076,30.076l-5.1-5.1" transform="translate(-8.97 -8.97)" />
+    </g>
+  </g>
+</svg>
